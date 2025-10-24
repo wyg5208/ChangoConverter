@@ -92,15 +92,17 @@ dist/
 *.toc
 *.synctex.gz
 
-docs/
-test_scripts/
+
 test_output/
 output/
 temp/
+
+# Temporary files (only specific temp files)
 temp_content.md
+
+# Log files
 *.log
-*.txt
-*.md
-*.docx
-*.html
-*.epub
+
+# Test output files (only in test directories)
+test_scripts/output/
+test_scripts/temp/

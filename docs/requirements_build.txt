@@ -1,0 +1,13 @@
+# Pandoc 全功能文档转换器 - 打包依赖
+
+# 核心依赖
+pypandoc>=1.13
+python-docx>=1.1.0
+
+# 打包工具
+pyinstaller>=6.0.0
+cx-Freeze>=6.15.0
+
+# 可选：创建更美观的图标
+Pillow>=10.0.0
+
