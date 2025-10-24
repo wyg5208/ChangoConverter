@@ -1,0 +1,106 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+build/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.spyderproject
+.spyproject
+.ropeproject
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Project specific
+temp_content.md
+*.log
+test_output/
+output/
+temp/
+
+# Build directories
+build/
+dist/
+*.egg-info/
+
+# Backup files
+*.bak
+*.backup
+~*
+
+# Windows executable (可选：如果不想提交exe文件)
+# *.exe
+
+# Large files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# MiKTeX/LaTeX
+*.aux
+*.out
+*.toc
+*.synctex.gz
+
+docs/
+test_scripts/
+test_output/
+output/
+temp/
+temp_content.md
+*.log
+*.txt
+*.md
+*.docx
+*.html
+*.epub
